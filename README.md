@@ -25,12 +25,23 @@
 3. Import the database from the `db` folder:
    - Go to **Import** in phpMyAdmin.
    - Select the SQL file located in the `db` folder and click **Go** to import the database structure and data.
+  
+### Step 4: Update Database Credentials
+1. Open the `config.php` file in the project.
+2. Update the database credentials (e.g., database name, username, and password) to match your local server setup:
 
-### Step 4: Host the API
+   ```php
+   $dbHost = 'localhost';
+   $dbUser = 'root';        // your MySQL username
+   $dbPass = '';            // your MySQL password (leave empty if no password)
+   $dbName = 'niramay_db';  // your database name
+   ```
+
+### Step 5: Host the API
 1. Place the API files in the correct server directory (e.g., `htdocs/niramay` if you're using **XAMPP**).
 2. Start your server and confirm that the APIs are working by visiting the corresponding API URLs (e.g., `http://localhost/niramay/api/...`).
 
-### Step 5: Update API URLs in the Application
+### Step 6: Update API URLs in the Application
 1. Open the `constants.java` file in your project.
 2. Replace the old API URL with your new localhost or server URL to ensure the application is linked to the correct API paths.
 
