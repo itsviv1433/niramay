@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#B69D9D"
+                android:padding="5dp"
+                android:rowCount="1"
+                android:columnCount="3"
+                android:layout_marginHorizontal="5dp">
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="#ffdddddd" />
+                <View
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_columnWeight="2"
+                    android:background="#ffdddddd" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_columnWeight="1"
+                    android:background="#ffdddddd" />
+
+            </GridLayout>
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+
+            <include layout="@layout/list_item_shimmer_layout" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+</LinearLayout>

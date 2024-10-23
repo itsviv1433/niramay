@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbgwhite"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/profile_shimmer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/profile_shimmer_layout" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/profilefrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                app:cardElevation="0dp"-->
+<!--                app:cardBackgroundColor="@color/transparent"-->
+<!--                android:background="@drawable/vaccine_bg"-->
+<!--                app:cardCornerRadius="10dp">-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/transparent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/edit_profile_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Edit Profile"
+                            android:textColor="#092EEA"
+                            android:textStyle="italic"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.983"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.025" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_circleImageView"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/profile_icon"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.497"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.037"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/update_profile_button"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/add_profile_icon"
+                            app:layout_constraintBottom_toBottomOf="@id/profile_circleImageView"
+                            app:layout_constraintEnd_toEndOf="@id/profile_circleImageView"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/profile_username_textview"
+                            android:layout_width="125dp"
+                            android:layout_height="23dp"
+                            android:gravity="center"
+                            android:text="Username: NA"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.508"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.83"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/profile_bmi_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Your BMI is: NA"
+                            android:textSize="15dp"
+                            android:textColor="@android:color/holo_green_dark"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.498"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0"
+                            tools:ignore="MissingConstraints" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginVertical="20dp"-->
+<!--                android:background="@drawable/profile_design_img">-->
+<!--            </LinearLayout>-->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/transparent"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/profile_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="Name"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="25dp" />-->
+
+<!--                        <EditText-->
+<!--                            android:id="@+id/profile_name_edittxt"-->
+<!--                            android:layout_width="190dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:hint="NA"-->
+<!--                            android:inputType="text"-->
+<!--                            android:maxLines="1" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="Email"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="25dp" />-->
+
+<!--                        <EditText-->
+<!--                            android:id="@+id/profile_email_edittxt"-->
+<!--                            android:layout_width="190dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:hint="NA"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="Phone"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="25dp" />-->
+
+<!--                        <EditText-->
+<!--                            android:id="@+id/profile_phone_edittxt"-->
+<!--                            android:layout_width="190dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:hint="NA"-->
+<!--                            android:inputType="number"-->
+<!--                            android:maxLines="1" />-->
+<!--                    </LinearLayout>-->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/profile_name_edittxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="Your Name"
+                            android:maxLength="30" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/profile_email_edittxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:hint="Your Email"
+                            android:maxLength="50" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/profile_phone_edittxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:hint="Your Phone"
+                            android:maxLength="10" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="City"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="25dp" />-->
+
+<!--                        <Spinner-->
+<!--                            android:id="@+id/profile_city_spinnner"-->
+<!--                            android:layout_width="190dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:entries="@array/city_spinner" />-->
+<!--                    </LinearLayout>-->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="10dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:text="Your City"
+                            android:gravity="center"
+                            android:textSize="18dp" />
+
+                        <Spinner
+                            android:id="@+id/profile_city_spinnner"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginHorizontal="10dp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:text="Weight"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/profile_weight_edittxt"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:hint="NA"
+                            android:maxLength="3"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:text="Height"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/profile_height_edittxt"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:hint="NA"
+                            android:maxLength="3"
+                            android:inputType="number" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:text="Age"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/profile_age_edittxt"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:hint="NA"
+                            android:maxLength="2"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:text="Gender"
+                            android:textSize="20dp" />
+
+                        <Spinner
+                            android:id="@+id/profile_gender_spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:entries="@array/gender_spinner"
+                            android:padding="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:text="Disease You Have\n(If Any)"
+                            android:textSize="20dp" />
+
+                        <Spinner
+                            android:id="@+id/profile_disease_spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:padding="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/edit_profile_save_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:padding="10dp"
+                            android:text="Save"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,169 @@
+<resources>
+
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="app_name">Niramay Healthcare</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">testuser@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log Out</string>
+
+    <!--    notification-->
+    <string name="appriciation_mail_title">Niramay HealthCare Team</string>
+    <string name="appriciation_mail_content">About Feedback Appriciation to </string>
+
+    <string name="menu_home">Home</string>
+    <string name="app_abstract">Niramay healthcare provides are often looking for ways to objectively
+                                    monitor and improve their patients health and fitness, especially
+                                    in between patient visits.Niramay application is a program that provide
+                                    frequent feedback, personalized coaching, and additional motivation and
+                                    provides any alert or future prediction about the health of patient on
+                                    the basis of the data provided by patient. </string>
+    <string name="diagnosis_abstract">Diagnosis is the process of identifying a disease, condition, or injury from its signs and symptoms.
+                                        Our Diagnosis can tell you a lot about your health condition such as tests,meds,hospitals and their
+                                        beds occupacy,your bmi advice and lot more...
+    </string>
+    <string name="profile_abstract">The purpose of health profile is not to establish a diagnosis,but rather to determine
+                                    a patients health status order to guide him/her.A patient may be advised to seek
+                                    medical advice base on his/her health profile.</string>
+    <string name="search_abstract">Search any disease details like its symptoms,modes of transmission,disease description,
+                                    general precautions,etc.</string>
+    <string name="facility_abstract">Search health facilities in your city by entering your city name.Also find your nearby
+                                    facility from its  address and also set appointments from their contact and opening time. </string>
+    <string name="feedback_abstract">Feedback results can be used to improve patient care based on indivisual feedback.It
+                                    also help to improve us to give you a best experiance.</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_diagnosis">Diagnosis</string>
+    <string name="menu_facilities"> Nearby Facilities</string>
+    <string name="menu_feedback">Feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_fragment">Hello User Fragment</string>
+    <string name="admin_fragment">Hello Admin Fragment</string>
+    <string name="add_file_feedback">Note: Images with .jpg, .gif, .jpeg and .png are allowed.
+        And file size must be smaller than 5Mb. </string>
+
+    <string name="whatisbmi">Body Mass Index (BMI) is a measurement of a person’s weight with respect to his or her height.
+        It is more of an indicator than a direct measurement of a person’s total body fat.
+        \n\nThe WHO defines an adult who has a BMI between 25 and 29.9 as overweight
+        \n\n- an adult who has a BMI of 30 or higher is considered obese
+        \n\n- a BMI below 18.5 is considered underweight, and between 18.5 to 24.9 a healthy weight.</string>
+
+    <string name="underweight">Although being lean can often be healthy, being underweight can be a concern
+        if its the result of poor nutrition or if you are pregnant or have other health concerns.
+        So,if you are underweight, see your doctor or dietitian for an evaluation.
+        Together, you can plan how to meet your goal weight.
+
+        \n\nHere are some healthy ways to gain weight when you are underweight:
+
+        \n\nEat more frequently - When youre underweight, you may feel full faster. Eat five to six smaller meals during the day rather than two or three large meals.
+        \n\nChoose nutrient-rich foods - As part of an overall healthy diet, choose whole-grain breads, pastas and cereals; fruits and vegetables; dairy products; lean protein sources; and nuts and seeds.
+        \n\nTry smoothies and shakes - Do not fill up on diet soda, coffee and other drinks with few calories and little nutritional value. Instead, drink smoothies or healthy shakes made with milk and fresh or frozen fruit, and sprinkle in some ground flaxseed. In some cases, a liquid meal replacement may be recommended.
+        \n\nWatch when you drink - Some people find that drinking fluids before meals blunts their appetite. In that case, it may be better to sip higher calorie beverages along with a meal or snack. For others, drinking 30 minutes after a meal, not with it, may work.
+        \n\nMake every bite count - Snack on nuts, peanut butter, cheese, dried fruits and avocados. Have a bedtime snack, such as a peanut butter and jelly sandwich, or a wrap sandwich with avocado, sliced vegetables, and lean meat or cheese.
+        \n\nTop it off - Add extras to your dishes for more calories — such as cheese in casseroles and scrambled eggs, and fat-free dried milk in soups and stews.
+        \n\nHave an occasional treat - Even when you are underweight, be mindful of excess sugar and fat. An occasional slice of pie with ice cream is OK. But most treats should be healthy and provide nutrients in addition to calories. Bran muffins, yogurt and granola bars are good choices.
+        \n\nExercise - Exercise, especially strength training, can help you gain weight by building up your muscles. Exercise may also stimulate your appetite.
+
+    </string>
+
+    <string name="healthy">
+        Why Is a Healthy Weight Important?
+        \n\nReaching and maintaining a healthy weight is important for overall health and can help you prevent and control many diseases and conditions.
+        If you are overweight or obese, you are at higher risk of developing serious health problems, including heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, and certain cancers.
+        That is why maintaining a healthy weight is so important: It helps you lower your risk for developing these problems, helps you feel good about yourself, and gives you more energy to enjoy life.
+
+        \n\nEnergy Balance
+        \n\nEnergy balance is important for maintaining a healthy weight.
+        The amount of energy or calories you get from food and drinks (energy IN) is balanced with the energy your body uses for things like breathing, digesting, and being physically active (energy OUT):
+
+        \n\n-The same amount of energy IN and energy OUT over time = weight stays the same (energy balance)
+        \n\n-More energy IN than OUT over time = weight gain
+        \n\n-More energy OUT than IN over time = weight loss
+
+        \n\nTo maintain a healthy weight, your energy IN and OUT don’t have to balance exactly every day. Its the balance over time that helps you maintain a healthy weight.
+
+        \n\nYou can reach and maintain a healthy weight if you:
+
+        \n\n-Follow a healthy diet, and if you are overweight or obese, reduce your daily intake by 500 calories for weight loss
+        \n\n-Are physically active
+        \n\n-Limit the time you spend being physically inactive
+    </string>
+
+    <string name="overweight">
+        Common treatments for overweight and obesity include losing weight through healthy eating, being more physically active, and making other changes to your usual habits.
+        Weight-management programs may help some people lose weight or keep from regaining lost weight.
+        Some people who have obesity are unable to lose enough weight to improve their health or are unable to keep from regaining weight.
+        In such cases, a doctor may consider adding other treatments, including weight-loss medicines, weight-loss devices, or bariatric surgery.
+
+        \n\nExperts recommend losing 5 to 10 percent of your body weight within the first 6 months of treatment.
+        If you weigh 200 pounds, this means losing as little as 10 pounds. Losing 5 to 10 percent of your weight may
+
+        \n\n-help lower your chances of developing health problems related to overweight and obesity
+        \n\n-improve health problems related to overweight and obesity, such as high blood pressure and high cholesterol levels
+
+    </string>
+
+    <string name="obese">
+        Common treatments for overweight and obesity include losing weight through healthy eating, being more physically active, and making other changes to your usual habits.
+        Weight-management programs may help some people lose weight or keep from regaining lost weight.
+        Some people who have obesity are unable to lose enough weight to improve their health or are unable to keep from regaining weight.
+        In such cases, a doctor may consider adding other treatments, including weight-loss medicines, weight-loss devices, or bariatric surgery.
+
+        \n\nExperts recommend losing 5 to 10 percent of your body weight within the first 6 months of treatment.
+        If you weigh 200 pounds, this means losing as little as 10 pounds. Losing 5 to 10 percent of your weight may
+
+        \n\n-help lower your chances of developing health problems related to overweight and obesity
+        \n\n-improve health problems related to overweight and obesity, such as high blood pressure and high cholesterol levels
+
+    </string>
+
+    <string name="step_tracker_manual">
+        A Step Tracker is a device that counts the number of steps taken.
+        When you walk,there is an up and down movement at the hip or
+        back and forth movement when your mobile device is in your hand.
+        Step Tracker works on the accelerometer sensor of your device,So make sure your device sensors are working properly.
+        Inside the accelerometer there is a small lever arm that moves up and down in response to the
+        movement of your hips that occurs with each step you take,thereby counting your steps as you move.Our Step Tracker
+        can record distance walked and calories burned too.
+    </string>
+
+
+    <string-array name="gender_spinner">
+        <item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="disease_spinner">
+        <item>Select</item>
+        <item>Corona</item>
+        <item>Cancer</item>
+        <item>Tuberclosis</item>
+        <item>Dibetes</item>
+        <item>Allergies</item>
+    </string-array>
+    <string-array name="city_spinner">
+        <item>Select</item>
+        <item>Jalgaon</item>
+        <item>Pune</item>
+        <item>Kolhapur</item>
+        <item>Nagpur</item>
+        <item>Chandrapur</item>
+        <item>Nashik</item>
+        <item>Mumbai</item>
+        <item>Malkapaur</item>
+        <item>Yawatmal</item>
+        <item>Aurangabad</item>
+        <item>Bhusawal</item>
+        <item>Latur</item>
+        <item>Akola</item>
+    </string-array>
+
+</resources>

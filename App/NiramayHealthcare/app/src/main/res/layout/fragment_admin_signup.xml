@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.adminSignup.adminSignup"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Full Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Username"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Email Address"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Phone Number"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Create Password"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:fontFamily="Arial"
+                android:gravity="center"
+                android:text="Confirm Password"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Re-enter Password"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingHorizontal="10dp">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Agree with Terms and Conditions" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Create Account" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Already have an Account ?" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_bg_transparent"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

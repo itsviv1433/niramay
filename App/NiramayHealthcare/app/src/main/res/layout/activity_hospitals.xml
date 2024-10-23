@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/hospital_activity"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appbgwhite"
+    tools:context=".Hospitals">
+
+    <LinearLayout
+        android:id="@+id/dignostics_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="HOSPITALS"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textSize="25dp" />
+
+        <FrameLayout
+            android:id="@+id/diagnosis_facilities_recycler_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/diagnosis_hospital_details_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>
