@@ -42,8 +42,8 @@
 2. Start your server and confirm that the APIs are working by visiting the corresponding API URLs (e.g., `http://localhost/niramay/api/...`).
 
 ### Step 6: Update API URLs in the Application
-1. Open the `constants.java` file in your project.
-2. Replace the old API URL with your new localhost or server URL to ensure the application is linked to the correct API paths.
+1. Open the `Interface` directory in your project.
+2. Replace the old API URL with your new localhost or server URL to ensure the application is linked to the correct API paths in variable `REGIURL`.
 
 ---
 
